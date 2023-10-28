@@ -1,0 +1,115 @@
+
+
+.home_name {
+    background-image: url("../img/desk-791178_1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 959px; /* Высота, например, весь экран */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Цвет текста */
+}
+
+.group {
+    text-align: center;
+}
+
+.main_text {
+    text-align: center;
+}
+
+.button {
+    font-size: 17px;
+    color: white;
+    padding:5px;
+    background-color: rgba(254, 254, 254, 0.1);
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 2px;
+    border-color: white;
+}
+
+.big_text {
+    font-size: 50px;
+}
+
+.about {
+    justify-content: center;
+    height: 540px;
+    padding: 0%;
+}
+
+.about_text {
+    margin: 0 auto;
+    width: 40%;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.outbest {
+    width: 100%;
+    height:535px;
+    background-image:url("../img/MaskGroup.jpg"); ;
+    
+}
+
+.outbest h1 {
+    padding-top: 3%;
+    text-align: center;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); /* Цвет текста */
+}
+
+
+.footer {
+    margin-bottom: 10px; /* Расстояние между надписями и логотипом */
+}
+
+.footer h4 {
+    padding: 19px;
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Центрирование логотипа */
+}
+
+.iconFooter {
+    text-align: center;
+}
+
+.card-section h5{
+    text-align: right;
+}
+
+a {
+    color: black; /* Цвет ссылки */
+    text-decoration: none; /* Убрать подчеркивание */
+  }
+  /* Состояние при наведении на ссылку */
+  a:hover {
+    color: rgb(0, 0, 0); /* Новый цвет при наведении */
+  }
+  
+  /* Состояние при активации (например, при нажатии) */
+  a:active {
+    color: rgb(255, 255, 255); /* Новый цвет при активации */
+  }
+

@@ -1,0 +1,48 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    padding: 0;
+    height: 260px;
+    width: 100%;
+    background-image: url("../img/coffee-2179009_1920.png"); /* Используйте url() для задания изображения */
+  }
+
+.About {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.product-coffee{
+    margin-top:6%;
+    display: block;
+    margin-left:65%; /* Центрирование изображения по горизонтали */
+    max-width: 100%; /* Максимальная ширина для изображения */
+    height: auto;
+}
+
+.product-coffee img {
+    height: 600px;
+}
+
+.text-containers {
+    padding-top: 3%;
+    font-size: small;
+    width: 50%; /* Текст тоже занимает половину ширины родительского блока */
+    height: 480px;
+    float: right;
+    position: relative; 
+}
+
+.text_box {
+    margin-right: 65%;
+    padding: 20px 0; /* Уменьшил верхний и нижний отступ */
+    text-align: center; 
+}
+

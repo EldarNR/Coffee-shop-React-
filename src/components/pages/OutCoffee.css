@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+  }
+  
+.header {
+    display: flex;
+    padding: 0;
+    height: 260px;
+    width: 100%;
+    background-image: url("../img/coffee-shop-1209863_1920.png"); /* Используйте url() для задания изображения */
+  }
+  
+.header .background {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.Aboutourbeans {
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.container-photo-text {
+  display: flex;
+
+  width: 100%;
+  height: 485px;
+}
+
+.child-one {
+  flex: 1; /* Равномерное распределение пространства между дочерними элементами */
+  padding-left: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-two {
+  flex: 1; /* Равномерное распределение пространства между дочерними элементами */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Добавлен отступ для текста */
+  padding-right:30%;
+  text-align: center;
+  margin-right: 50px;
+}
+
+
+.product {
+  margin: -15px;
+  width: 100%;
+  height: 100%;
+}
+
+.line {
+  text-align: center;
+  margin: 0;
+}
+
+.mainproduct {
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing-filter {
+  display: flex;
+  margin: 15px 30% 20px;
+}
+
+.typing-filter input {
+  margin-left: 20px;
+  text-align: center;
+  border: none;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.typing-filter input:disabled{
+-webkit-box-shadow: 0px -1px 8px 6px rgba(34, 60, 80, 0.31) inset;
+-moz-box-shadow: 0px -1px 8px 6px rgba(34, 60, 80, 0.31) inset;
+box-shadow: 0px -1px 8px 6px rgba(34, 60, 80, 0.31) inset;
+}
+
+.typing-filter input:hover {
+  -webkit-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);
+
+}
+
+.typing-filter input:active {
+  -webkit-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.2);  
+}
+
+.typing-filter .filter-button{
+  padding-left: 20%;
+}
+
+.Brazil {
+  margin-left:20px;
+}
+
+.footer h4 {
+  border: 3px;
+  
+  text-shadow: 0 0 0 black;
+}
+
+.product-body {
+  margin-left: 25%;
+  margin-right: 25%;
+}

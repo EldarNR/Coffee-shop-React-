@@ -1,0 +1,73 @@
+/* Общие стили для страницы */
+.body-page {
+    padding: 15px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  /* Стили для шапки (header) */
+  .header {
+    display: flex;
+    align-items: center; /* Центрирование содержимого по вертикали */
+    height: 260px;
+    background-image: url("../img/coffee-shop-1209863_1920.png");
+    background-size: cover; /* Заполнение фона по размеру блока */
+    color: white;
+  }
+  
+  .header .background {
+    text-align: center;
+  }
+  
+  /* Стили для изображения */
+  .image-container {
+    width: 50%; /* Изображение занимает половину ширины родительского блока */
+    height: 480px;
+    float: left;
+  }
+  
+  /* Стили для текста */
+  .text-container {
+    width: 50%; /* Текст тоже занимает половину ширины родительского блока */
+    height: 480px;
+    float: right;
+    position: relative; /* Используйте relative для корректного позиционирования потомков */
+  }
+  
+  .product-img {
+    margin-top: 3%;
+    display: block;
+    margin-left:55%; /* Центрирование изображения по горизонтали */
+    max-width: 100%; /* Максимальная ширина для изображения */
+    height: auto; /* Подстраивается под ширину блока */
+  }
+  
+  .text-box {
+    margin-right: 65%;
+    padding: 20px 0; /* Уменьшил верхний и нижний отступ */
+    text-align: right; /* Выравнивание текста по правому краю */
+}
+
+.about-it {
+    text-align: center;
+}
+
+.icon-center {
+    display: flex;
+    justify-content: center; /* Центрирование иконок по горизонтали */
+    align-items: center; /* Центрирование иконок по вертикали */
+  }
+  
+.on-the-left {
+text-align: left;
+}
+  
+.price {
+    font-size: x-large;
+}
+
+.footers {
+    margin-top: 480px;
+}

@@ -1,0 +1,18 @@
+.card {
+    display: inline-table;
+    width: 260px;
+    box-sizing: border-box;
+    padding: 3em;
+    padding-top: 1.5%;
+    padding-bottom: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.6); /* Прозрачный фон */
+    border: 6px;
+    border-radius: 25px;
+}
+
+.card:active{
+    -webkit-box-shadow: 4px 4px 46px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 46px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 46px 0px rgba(34, 60, 80, 0.2);
+}

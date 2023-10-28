@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.card {
+  
+  text-align: right;
+  display: inline-table;
+  width: 260px;
+  padding: 1.5% 3em 34px;
+  margin: 23px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 6px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 74px 0px rgba(34, 60, 80, 0.2);;
+}
+
+.card:hover{
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71); 
+}
+
+.card-detail {
+  display: block;
+  text-decoration: none;
+}
+
+
+.input-filter {
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-left: 28%;
+}
+
+.input-filter input {
+  
+  text-align: center;
+  color:black;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-left: 10px; /* Увеличиваем отступ слева */
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);  
+}
+
+.input-filter .text {
+  margin-right: 10px; /* Добавляем отступ справа */
+}
+
+.input-filter .input-text {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.filter {
+  flex: 1;
+  margin-right: 10%;
+  margin-left: 7%;
+}
+.filter button{
+  font-family: 'Merienda', cursive; /* Примените шрифт к элементу body или другому элементу */
+  margin-left: 9px;
+  padding: 10px;
+  text-align: center;
+  color:black;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);  
+}
+
+button:hover{
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);  
+}
+
+input:active {
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+}
+
+
